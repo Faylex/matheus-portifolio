@@ -1,20 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link';
-import styles from '../styles/page.module.css'
+import styles from '@Matheus/styles/page.module.css'
+import Menu from '@Matheus/components/menu.component';
+import Timeline from '@Matheus/components/timeline.component';
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1>
-          Timeline
-        </h1>
-        </div>
-        <div className={styles.menu}>
-          <h1>Profile</h1>
-          <h1>About Me</h1>
-          <h1>Links</h1>
-        </div>
+        <Timeline />
+      </div>
+      <div className={styles.container}>
+        <Menu />
+      </div>
     </main>
   )
 }
