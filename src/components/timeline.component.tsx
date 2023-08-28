@@ -7,12 +7,6 @@ export default function Timeline() {
             <div>
                 <h1><Link href="/">Timeline</Link></h1>
             </div>
-            <div>
-                <h2>Post</h2>
-                <p>
-                    <Link href="/">Post Link</Link>
-                </p>
-            </div>
         </div>
     )
 
