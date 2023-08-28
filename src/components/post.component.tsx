@@ -1,0 +1,22 @@
+import Link from 'next/link';
+import styles from '@Matheus/styles/page.module.css'
+
+export default function Post() {
+    return(
+        <div className={styles.post}>
+            <div>
+                <h1>Post</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dui a nisl placerat eleifend eget et leo. Morbi accumsan aliquet sem, eget tristique libero pretium at. Donec bibendum orci sed suscipit varius. Sed placerat lorem sed ligula gravida pretium. Ut consequat lectus vitae imperdiet ullamcorper. Mauris sit amet lorem auctor, iaculis purus nec, iaculis orci. Quisque non felis in ex pretium tincidunt. Aliquam tempus velit quam, consectetur volutpat lacus aliquet at. Ut sit amet erat accumsan, sollicitudin orci vel, vulputate risus.
+
+Maecenas sollicitudin luctus elit, sit amet mollis sem bibendum at. In tincidunt libero a odio imperdiet, vel pharetra lacus ornare. Fusce eros massa, ultricies eget mollis sit amet, hendrerit consectetur sapien. Sed dapibus tristique mauris sed viverra. Nulla at blandit sem. Nulla dictum tempor nulla. Donec malesuada congue finibus. In faucibus risus in vehicula lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce ac purus vel velit ultrices efficitur eu ut sapien. Nulla sit amet massa in diam tincidunt ornare eget vel leo. Nam ut vulputate erat, ut convallis neque. Praesent varius dui in massa dignissim ullamcorper. Mauris placerat tempus mauris, nec euismod ante. Etiam efficitur laoreet ligula. Maecenas congue elit a ex condimentum tempus.
+
+Nullam quis magna lobortis, tempor urna vitae, eleifend velit. Mauris eu nisl imperdiet, maximus lorem sed, viverra felis. Morbi euismod, risus eget viverra fermentum, urna odio condimentum turpis, sed pulvinar sapien erat a odio. Fusce est tortor, luctus a bibendum id, blandit non leo. Praesent consectetur nisl ut quam malesuada, nec pharetra felis sollicitudin. Nunc eget lacus porta, ornare nulla nec, sollicitudin felis. Aenean interdum metus in augue vehicula vestibulum. Nam pharetra ante et libero ullamcorper, eget tempor justo cursus. Cras sapien ex, pulvinar dapibus venenatis ut, tincidunt eget eros. Vivamus et malesuada purus. Phasellus et tortor vel lorem pellentesque dictum. Vivamus ut leo vitae nisl vehicula tincidunt sed eu tortor. Praesent nec sem et dui eleifend tristique vel et quam. Donec lacinia pretium turpis sed feugiat. Integer eget erat rutrum dui feugiat convallis at vel eros.
+
+Praesent lobortis mauris turpis, eget egestas purus aliquet non. Vivamus luctus, tellus a convallis hendrerit, lorem tortor blandit nunc, a molestie neque libero a nunc. Nullam sodales, diam sed fermentum viverra, augue massa scelerisque sapien, non luctus lectus enim eu dolor. Donec tincidunt eros et lectus pretium lacinia. Curabitur gravida mauris sit amet lacus finibus mollis. Suspendisse sem ligula, mattis nec tellus eget, tincidunt commodo metus. Fusce in molestie massa. In congue turpis ut orci tristique, et porta sem mattis. Donec ac sem id justo eleifend maximus id in augue. Curabitur aliquam tortor non eros aliquet ullamcorper. Maecenas id ultrices quam. Aliquam nec ligula et neque tempus blandit. Quisque sollicitudin ultricies libero ut dignissim. Mauris ac ex in metus gravida porttitor et quis nisi. Sed pellentesque, metus sit amet cursus cursus, ligula nisi placerat tellus, aliquam tincidunt risus erat eu enim. Aenean euismod, nibh ac pellentesque dapibus, justo libero euismod eros, ut condimentum leo ante ut lorem.
+
+Maecenas rutrum, elit vel varius dictum, mi lorem viverra libero, at tempor nibh justo sit amet justo. Donec sit amet porta ex. Pellentesque sodales enim in sollicitudin blandit. Phasellus aliquam vitae ex at cursus. Vivamus eu lobortis nisl. Curabitur aliquam tellus eget semper convallis. Integer aliquet ac eros in maximus. Pellentesque vestibulum ipsum at diam ultricies egestas. Nam imperdiet tellus a efficitur porttitor. Nulla luctus tincidunt odio, in eleifend tortor facilisis sit amet. Fusce pulvinar purus purus, vitae tempus erat accumsan eget. Aenean facilisis lacinia libero, vitae rutrum tellus maximus nec. Cras eu augue arcu. Etiam mollis, nunc non gravida ultrices, urna augue euismod purus, scelerisque molestie tortor lectus rhoncus dolor.</p>
+            </div>
+        </div>
+    )
+
+}
